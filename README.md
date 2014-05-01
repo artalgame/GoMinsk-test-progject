@@ -1,0 +1,2 @@
+GoMinsk-test-progject
+=====================
