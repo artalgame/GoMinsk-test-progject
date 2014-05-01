@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="28dp" >
+
+    <com.flaxtreme.gominsktestapp.view.BigMainMenuButtons
+        android:id="@+id/bigMainButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+</com.flaxtreme.gominsktestapp.view.BigMainMenuButtons>
+
+<com.flaxtreme.gominsktestapp.view.SmallMainMenuButtons
+    android:id="@+id/smallMainButtons"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/bigMainButtons"
+    android:layout_marginLeft="7dp"
+    android:layout_marginTop="-35dp" >
+
+</com.flaxtreme.gominsktestapp.view.SmallMainMenuButtons>
+
+
+
+</RelativeLayout>

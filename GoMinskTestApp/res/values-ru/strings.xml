@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+      <string name="no_internet_connection">Нет интернет подключения</string>
+      
+      <string name="no_location_warning">Невозможно определить текущие координаты</string>
+      
+      <string name="update_database_warning"> Приложению нужно обновить базу данных. Мы реккомендуем использовать для этого WiFi соединение. Хотите ли вы обновить базу данных сейчас?</string>
+      	<string name="database_update_yes">Да, обновить</string>
+		<string name="database_update_no">Нет, не сейчас</string>
+      
+    <string name="db_update_dialog_title">"Обновление БД…"</string>
+    <string name="db_update_dialog_text">"Пока идет обновление базы данных, вы можете пользоваться другими приложениями. Мы будем стараться обновить базу как можно быстрее ;)"</string>
+    <string name="db_update_finish_toast">GoMinsk база данных успешно обновлена.</string>
+    
+     <string name="check_db_each_day_checkbox">Проверять обновления базы данных каждый день?</string>
+     <string name="update_db_button">Обновить базу данных</string>
+     <string name="change_language">Изменить язык</string>
+     <string name="app_info_text"> Знали ли вы Минск таким?</string>
+     
+    <string name="app_name">Go Minsk!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_section1">О Минске</string>
+    <string name="title_section2">Категории</string>
+    <string name="title_section3">О приложении</string>
+    
+	<string name="about_app">"Это приложение бла бла бла....Lorem Ipsum - это текст-"рыба", 
+	    часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" 
+	    для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал 
+	    большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
+	    Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул 
+	    в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset 
+	    с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной 
+	    вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum."
+	</string>
+	 <string name="minsk_info_title">Знакомьтесь, Минск!</string>
+    <string name="minsk_info">
+        Минск (белор. Мінск) — столица Беларуси, административный центр Минской области и Минского района, в состав которых не входит, поскольку является самостоятельной административно-территориальной единицей с особым (столичным) статусом, город-герой. 
+        
+        Крупнейший транспортный узел, политический, экономический, культурный и научный центр страны. 
+        
+        В Минске находится штаб-квартира СНГ. Третий по величине город Единого экономического пространства. Город расположен недалеко от географического центра страны и стоит на реке Свислочи. Площадь составляет 348,84 км², население — 1 917 344 человек (на 1 ноября 2013 года).
+    </string>
+    <string name="library_descr">Национальная библиотека</string>
+    <string name="categories_title">Категории</string>
+    
+    <string name="category1">Итория</string>
+    <string name="category1_descr">Исторические места Минска</string>
+    
+    <string name="category2">Кафе</string>
+    <string name="category2_descr">Кафешки Минска</string>
+    
+    <string name="category3">Гостиницы</string>
+    <string name="category3_descr">Гостиницы города Минск</string>
+    
+        <!-- Buttons -->
+    <string name="button_list_name">Список</string>
+	
+	<string name="button_map_name">Карта</string>
+	
+	<string name="button_filter_name">Фильтр</string>
+	
+	<!-- Buttons -->
+    <string name="button_list_name">Список</string>
+    <string name="button_list_descr">Список</string>
+	
+	<string name="button_map_name">Карта</string>
+	<string name="button_map_descr">Карта</string>
+	
+	<string name="button_filter_name">Фильтр</string>
+	<string name="button_filter_descr">Фильтр</string>
+	
+	<string name="button_main_menu_culture">объекты</string>
+	<string name="button_main_menu_map">карта</string>
+	<string name="button_main_walks">маршруты</string>
+	
+	
+	  <string-array name="drawer_points">
+        <item>О приложении</item>
+        <item>О минске</item>
+    </string-array>
+	
+	<string name="km_prefix">км</string>
+	<string name="m_prefix">м</string>
+	
+	<string name="hour_suffix">ч</string>
+	<string name="minute_suffix">м</string>
+	  
+	<string name="update_database_toast">Пожалуйста, обновите базу данных</string>
+</resources>

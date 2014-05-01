@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_weight="1"
+    android:background="@drawable/tab_selector" >
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/tabImage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/button_list_descr"
+            android:scaleType="centerCrop"
+            android:src="@drawable/list" />
+
+        <TextView
+            android:id="@+id/tabName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:padding="2dp"
+            android:text="Карта"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/tab_textcolor"
+            android:textSize="18sp" />
+
+</LinearLayout>
+</FrameLayout>

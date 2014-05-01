@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="no_internet_connection">"No internet connection"</string>
+    
+    <string name="no_location_warning">Could not check location</string>
+    
+    <string name="db_update_dialog_title">"Database updating…"</string>
+    <string name="db_update_dialog_text">"Use other apps when data base is updating. We are trying to finish as soon as possible ;)"</string>
+    <string name="db_update_finish_toast">GoMinsk database has been updated successfully!</string>
+    
+    <string name="check_db_each_day_checkbox">Check each day db updates?</string>
+    <string name="update_db_button">Update Database</string>
+    <string name="change_language">Change Language</string>
+    <string name="app_info_text">Did you know such Minsk?</string>
+    
+    <string-array name="drawer_points">
+        <item>About App</item>
+        <item>About Minsk</item>
+    </string-array>
+    
+    <string name="view_more">View More</string>
+	<string name="view_less">View Less</string>
+    
+    <string name="update_database_warning"> The app needs to update its database. We recommend to use WiFi connection for this. Would you like to update database?</string>
+    <string name="database_update_yes">Yes</string>
+	<string name="database_update_no">No</string>
+    <string name="welcome_string">Вiтанкi! Welcome! Привет!</string>
+    
+    <string name="app_name">Go Minsk</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">About Minsk</string>
+    <string name="title_section2">Categories</string>
+    <string name="title_section3">About App</string>
+    <string name="app_version">v 0.1</string>
+    <string name="about_app"> "This app bla bla bla.....Lorem Ipsum is simply dummy text 
+        of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+        standard dummy text ever since the 1500s, when an unknown printer took a galley 
+        of type and scrambled it to make a type specimen book. It has survived not only 
+        five centuries, but also the leap into electronic typesetting, remaining essentially 
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+        containing Lorem Ipsum passages, and more recently with desktop publishing software 
+        like Aldus PageMaker including versions of Lorem Ipsum."
+    </string>
+    <string name="minsk_info_title">Do you know Minsk?</string>
+	<string name="minsk_info">
+	    Minsk (Belarusian: Мінск, Менск, pronounced [mʲinsk], [mʲɛnsk]; Russian: Минск, [mʲinsk]) is the capital and largest city of Belarus, situated on the Svislach and Nyamiha rivers. It is the administrative centre of the Commonwealth of Independent States (CIS). As the national capital, Minsk has a special administrative status in Belarus and is the administrative centre of Minsk Region (voblast) and Minsk raion (district). In 2013, it had a population of 2,002,600.
+
+		The earliest historical references to Minsk date to the 11th century (1067), when it was noted as a provincial city within the principality of Polotsk. The settlement developed on the rivers. In 1242, Minsk became a part of the Grand Duchy of Lithuania. It received town privileges in 1499.
+
+		From 1569, it was a capital of the Minsk Voivodship in the Polish–Lithuanian Commonwealth. It was part of a region annexed by the Russian Empire in 1793, as a consequence of the Second Partition of Poland. From 1919–1991, after the Russian Revolution, Minsk was the capital of the Belorussian Soviet Socialist Republic within the Soviet Union.
+	</string>
+   <string name="library_descr">National library</string>
+   <string name="categories_title">Categories</string>
+   
+   <string name="category1">History</string>
+    <string name="category1_descr">Minsk History Places</string>
+    
+    <string name="category2">Cafes</string>
+    <string name="category2_descr">Minsk Coffee Houses</string>
+    
+    <string name="category3">Hostels</string>
+    <string name="category3_descr">Minsk Hostels and Hotels</string>
+   
+    <string name="category3">Hostels</string>
+    <string name="category3_descr">Minsk Hostels and Hotels</string>
+    
+    <string name="category1_item1_name">Red Castle</string>
+    <string name="category1_item1_descr">Simon and Alena Castle</string>
+    <string name="category1_item1_address">Church of Saints Simon and Helena, Savieckaja vulica, Minsk, Belarus</string>
+    
+    <string name="category1_item2_name">Opera and Balet Theatre</string>
+    <string name="category1_item2_descr">National Opera and Balet Theatre</string>
+    <string name="category1_item2_address">Great Theatre Нацыянальны акадэмічны Вялікі тэатр оперы і балета Рэспублікі Беларусь</string>
+    
+    <string name="category1_item3_name">Cathedral of the Holy Spirit</string>
+    <string name="category1_item3_descr">Cathedral of the Holy Spirit near Nemiga</string>
+    <string name="category1_item3_address">Holy Spirit Cathedral, вуліца Кірылы і Мяфодзія 3, Мінск 220030, Belarus</string>
+  
+    <!-- Buttons -->
+    <string name="button_list_name">List</string>
+    <string name="button_list_descr">List button</string>
+	
+	<string name="button_map_name">Map</string>
+	<string name="button_map_descr">Map button</string>
+	
+	<string name="button_filter_name">Filter</string>
+	<string name="button_filter_descr">Filter button</string>
+	
+	<string name="button_main_menu_culture">sights &amp; culture</string>
+	<string name="button_main_menu_map">city map</string>
+	<string name="button_main_walks">suggested walks</string>
+	
+	
+	<string name="hour_suffix">h</string>
+	<string name="minute_suffix">m</string>
+	<string name="about_minsk_menu_item">About Minsk</string>
+	
+	<string name="drawer_open">Open</string>
+	<string name="drawer_close">Close</string>
+	<string name="title_city_map">CITY_MAP</string>
+	
+	<string name="km_prefix">km</string>
+	<string name="m_prefix">m</string>
+	<string name="update_database_toast">Please, update database</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemGeoObjectsRelativeLayout"
+    style="@style/geoobject_item_layout_style"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="4dp" >
+
+    <com.flaxtreme.gominsktestapp.view.MLRoundedImageView
+        android:id="@+id/geoObjectImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="matrix"
+        android:src="@drawable/rectangle_sub" />
+
+    <com.flaxtreme.gominsktestapp.view.RobotoRegularTextView
+        android:id="@+id/geoObjectTitleTextView"
+        style="@style/geoobject_item_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/geoObjectImageView"
+        android:text="St. Simon and Alena Cathedral"
+        android:textColor="@color/object_item_text_view_color_selector" />
+
+    <ImageView
+        android:id="@+id/mapIconImageView"
+        style="@style/geoobject_item_map_icon_style"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/geoObjectTitleTextView"
+        android:layout_below="@+id/geoObjectTitleTextView"
+        android:adjustViewBounds="true"
+        android:src="@drawable/map_icon_selector" />
+
+    <com.flaxtreme.gominsktestapp.view.RobotoRegularTextView
+        android:id="@+id/geoObjectDestinationTextView"
+        style="@style/geoobject_item_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mapIconImageView"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@+id/mapIconImageView"
+        android:text="500 м"
+        android:textColor="@color/object_item_text_view_color_selector" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        style="@style/geoobject_item_forward_arrow_style"
+        android:layout_width="10dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignTop="@+id/geoObjectTitleTextView"
+        android:layout_margin="3dp"
+        android:layout_toRightOf="@id/geoObjectTitleTextView"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/forward_arrow_selector" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        style="@style/geoobject_item_forward_arrow_style"
+        android:layout_width="10dp"
+        android:layout_height="12dp"
+        android:layout_alignBottom="@+id/geoObjectDestinationTextView"
+        android:layout_margin="3dp"
+        android:layout_toRightOf="@+id/geoObjectDestinationTextView"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/forward_arrow_selector" />
+
+</RelativeLayout>

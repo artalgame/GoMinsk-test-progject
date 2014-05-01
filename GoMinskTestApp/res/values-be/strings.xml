@@ -1,0 +1,52 @@
+<resources>
+    
+      <string name="no_internet_connection">Няма iнтэрнэт злучэння</string>
+      <string name="no_location_warning">Нельга высветлiць вашы каардынаты</string>
+      
+     <!-- Buttons -->
+     <string name="db_update_dialog_title">"Аднауленне БД…"</string>
+     <string name="db_update_dialog_text">"Пакуль аднауляецца база даных, Вы можаце карыстацца iншымi прыладамi. Мы паклапоцiмся, каб усе прайшло хутка ;)"</string>
+     <string name="db_update_finish_toast">GoMinsk база даных паспяхова аднаулена.</string>
+     
+     <string name="check_db_each_day_checkbox">Правяраць аднауленни базы даных кожны дзень?</string>
+     <string name="update_db_button">Аднавiць базу даных</string>
+     <string name="change_language">Змянiць мову</string>
+     <string name="app_info_text">Цi ведалi вы такi Мiнск?</string>
+     
+      <string name="minsk_info">Мінск (да 1939 года — Менск) — сталіца Рэпублікі Беларусь, адміністрацыйны цэнтр Мінскай вобласці (не ўваходзіць у яе склад) і Мінскага раёна (не ўваходзіць у яго склад), горад-герой.
+
+Насельніцтва — 1,9 млн чалавек (2012 год), найбуйнейшы горад краіны. Утварае агламерацыю, у межах якой пражывае звыш 2,645 млн чалавек або 1/4 насельніцтва Беларусі. Горад размешчаны недалёка ад геаграфічнага цэнтра краіны, на берагах ракі Свіслач. Займае плошчу ў 307,90 км².</string>
+      
+	<string name="button_list_name">Спic</string>
+	
+	<string name="button_map_name">Мапа</string>
+	
+	<string name="button_filter_name">Фiльтр</string>
+	
+	<string name="update_database_warning">"Трэба спампаваць базу аб'ектау. Мы прапаноуваем вам карыстацца для гэтага WiFi злучэннем. Спампаваць базу дадзеных?"</string>
+	<string name="database_update_yes">Так, спампаваць</string>
+	<string name="database_update_no">Не, не трэба</string>
+	
+	
+	 <string-array name="drawer_points">
+        <item>Аб гайдзе</item>
+        <item>Аб Мiнску</item>
+    </string-array>
+    
+	 <!-- Buttons -->	
+	
+	<string name="button_main_menu_culture">месцы</string>
+	<string name="button_main_menu_map">мапа</string>
+	<string name="button_main_walks">шпацеры</string>
+	
+	<string name="view_more">Больш...</string>
+	<string name="view_less">Меньш...</string>
+	
+	<string name="km_prefix">км</string>
+	<string name="m_prefix">м</string>
+	
+	<string name="hour_suffix">г</string>
+	<string name="minute_suffix">х</string>
+	
+	<string name="update_database_toast">Калi ласка, аднавiцце базу даных</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemGeoObjectsRelativeLayout"
+    style="@style/geoobject_item_layout_style"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        style="@style/geoobject_item_forward_arrow_style"
+        android:layout_width="10dp"
+        android:layout_height="12dp"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/geoObjectTitleTextView"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/forward_arrow_selector" />
+
+    <ImageView
+        android:id="@+id/markerImageView"
+        style="@style/geoobject_item_forward_arrow_style"
+        android:layout_width="18dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/marker" />
+
+    <com.flaxtreme.gominsktestapp.view.RobotoRegularTextView
+        android:id="@+id/geoObjectTitleTextView"
+        style="@style/geoobject_item_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/markerImageView"
+        android:text="St. Simon and Alena Cathedral"
+        android:textColor="@color/object_item_text_view_color_selector"
+        android:textSize="20dp" />
+
+</RelativeLayout>

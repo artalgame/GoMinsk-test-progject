@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#fdfdfd"
+	    android:orientation="vertical" >
+	
+	    <com.flaxtreme.gominsktestapp.view.RobotoRegularTextView
+	        android:id="@+id/objectNameTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_margin="8dp"
+	        android:text="Площадь Независимости"
+	        android:textSize="24dp" />
+	
+	    <ImageView
+	        android:id="@+id/objectImageView"
+	        android:layout_width="322dp"
+	        android:layout_height="237dp"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_margin="8dp"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/rectangle_sub" />
+	
+	    <com.flaxtreme.gominsktestapp.view.RobotoRegularTextView
+	        android:id="@+id/objectDescriptionTextView"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="8dp"
+	        android:autoLink="web"
+	        android:gravity="left|center_horizontal"
+	        android:linksClickable="true"
+	        android:text="This app bla bla bla.....Lorem Ipsum is simply dummy text  fdkjflkdsj jfdskljflasj djsfljasdlkf sadlfjlksadjflkasdflk jsadlkf laskdjflksadjflk ajlkfsdjlkfjaslk jlfkjlaskdjflkjas ljfasldkjf lasj"
+	        android:textColorLink="@android:color/holo_green_light"
+	        android:textSize="20dp" />
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="32dp"
+	            android:orientation="vertical" >
+
+	            <RelativeLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent" >
+
+	                <com.flaxtreme.gominsktestapp.view.RobotoMediumTextView
+	                    android:id="@+id/TextView06"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="8dp"
+	                    android:text="Address:"
+	                    android:textColor="#a2a5b0"
+	                    android:textSize="22dp" />
+
+	                <com.flaxtreme.gominsktestapp.view.RobotoRegularTextView
+	                    android:id="@+id/addressTextView"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_below="@id/TextView06"
+	                    android:layout_marginLeft="8dp"
+	                    android:layout_marginTop="8dp"
+	                    android:text="Independent Prs, 64"
+	                    android:textSize="20dp" />
+
+	                <ImageView
+	                    android:id="@+id/mapMarkerImageView"
+	                    android:layout_width="32dp"
+	                    android:layout_height="32dp"
+	                    android:layout_toRightOf="@id/TextView06"
+	                    android:adjustViewBounds="true"
+	                    android:src="@drawable/marker_small" />
+
+	                <com.flaxtreme.gominsktestapp.view.RobotoRegularTextView
+	                    android:id="@+id/destinationTextView"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentTop="true"
+	                    android:layout_toRightOf="@+id/mapMarkerImageView"
+	                    android:text="500 m >"
+	                    android:textColor="#279919"
+	                    android:textSize="20dp" />
+
+	            </RelativeLayout>
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:visibility="gone" >
+
+	            <TextView
+	                android:id="@+id/TextView03"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dp"
+	                android:layout_marginTop="8dp"
+	                android:enabled="false"
+	                android:text="Telephone:"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textStyle="bold"
+	                android:visibility="invisible" />
+
+	            <TextView
+	                android:id="@+id/telephoneTextView"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dp"
+	                android:enabled="false"
+	                android:text="+375 17 331 39 82"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:visibility="invisible" />
+
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:visibility="gone" >
+
+	            <TextView
+	                android:id="@+id/TextView07"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dp"
+	                android:layout_marginTop="8dp"
+	                android:enabled="false"
+	                android:text="Open hours:"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textStyle="bold"
+	                android:visibility="invisible" />
+
+	            <TextView
+	                android:id="@+id/openHoursTextView"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="8dp"
+	                android:enabled="false"
+	                android:text="9.00 - 21.00"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:visibility="invisible" />
+
+	        </LinearLayout>
+	    </LinearLayout>
+
+	</LinearLayout>
+</ScrollView>

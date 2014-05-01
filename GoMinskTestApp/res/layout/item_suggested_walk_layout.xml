@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemGeoObjectsRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:layout_margin="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="4dp" >
+
+    <com.flaxtreme.gominsktestapp.view.MLRoundedImageView
+        android:id="@+id/walkImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="matrix"
+        android:src="@drawable/rectangle_sub" />
+
+    <TextView
+        android:id="@+id/walkTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/walkImageView"
+        android:text="Ugly Minsk"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/clockIconImageView"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/walkTitleTextView"
+        android:layout_below="@+id/walkTitleTextView"
+        android:layout_centerInParent="false"
+        android:layout_margin="4dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/watch_detailed_walk_03" />
+
+    <TextView
+        android:id="@+id/walkTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/clockIconImageView"
+        android:layout_toRightOf="@+id/clockIconImageView"
+        android:text="500 м >"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
